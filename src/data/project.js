@@ -1,5 +1,16 @@
 export let projects = [
 	{
+		title: 'Definitive BJJ',
+		description: 'Client website for a North Vancouver Brazilian Jiu-Jitsu academy.',
+		hook: 'A live client website for a local martial arts academy.',
+		problem: 'Gives prospective students a clear place to learn about classes, schedule, contact details, and the academy brand.',
+		techStack: ['WordPress', 'Elementor', 'Astra', 'Responsive Design'],
+		built: 'Built and published a client-facing website for Definitive BJJ with structured sections for discovery and contact.',
+		highlight: 'Focused on a polished first impression, mobile-friendly navigation, and clear calls to action for new students.',
+		image: 'images/definitive-bjj.webp',
+		demoUrl: 'https://definitivebjj.ca/'
+	},
+	{
 		title: 'BrainyCanuck',
 		description: 'App with 100+ flashcards to prepare for the Canadian Citizenship test.',
 		hook: 'A study companion for Canadian citizenship prep.',

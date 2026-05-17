@@ -3,7 +3,10 @@
 		'Testing and automation',
 		'Svelte and React projects',
 		'Backend and database design',
-		'Deployment and GitHub workflows'
+		'Deployment and GitHub workflows',
+		'Power BI reports and analysis',
+		'Local LLM deployment on my computer',
+		'OpenClaw and local agent workflows'
 	];
 </script>
 

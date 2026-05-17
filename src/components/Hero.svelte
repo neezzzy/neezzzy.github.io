@@ -2,7 +2,7 @@
 	export let linkedInUrl: string;
 	export let githubUrl: string;
 
-	const badges = ['Web apps', 'Automation', 'Learning tools', 'Clear docs'];
+	const badges = ['Web apps', 'Automation', 'Power BI', 'Local agents'];
 </script>
 
 <header
@@ -22,7 +22,7 @@
 				<h1
 					class="mb-6 max-w-4xl text-4xl font-heading font-bold leading-tight text-neutral-950 md:text-6xl lg:text-7xl dark:text-white"
 				>
-					I build practical web apps, automation tools, and learning-focused projects.
+					I build practical web tools.
 				</h1>
 				<p
 					class="mb-6 max-w-2xl text-xl font-medium leading-relaxed text-neutral-700 md:text-2xl dark:text-neutral-200"
@@ -30,7 +30,7 @@
 					Hi, I'm Russell Nizamov, a web developer who likes turning real workflow problems into simple, useful software.
 				</p>
 				<p class="mb-8 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg dark:text-neutral-300">
-					I focus on practical web apps, automation, and clear documentation so projects are easier to use, test, and improve.
+					I focus on practical web apps, automation, reporting, and clear documentation so projects are easier to use, test, and improve.
 				</p>
 
 				<div class="mb-10 flex flex-wrap gap-3">
@@ -67,12 +67,14 @@
 						<span class="ml-3 text-xs font-semibold uppercase tracking-wider text-neutral-400">portfolio.ts</span>
 					</div>
 					<div class="space-y-4 p-5 font-mono text-sm leading-relaxed text-neutral-100 md:p-6">
-						<p><span class="text-primary-300">const</span> focus = ['web apps', 'automation', 'learning'];</p>
+						<p><span class="text-primary-300">const</span> focus = ['web apps', 'automation', 'Power BI'];</p>
+						<p><span class="text-primary-300">const</span> localLab = ['OpenClaw', 'local LLMs', 'agents'];</p>
 						<p><span class="text-primary-300">function</span> build(project) {'{'}</p>
 						<p class="pl-4 text-neutral-300">understand(problem);</p>
 						<p class="pl-4 text-neutral-300">ship(workingVersion);</p>
 						<p class="pl-4 text-neutral-300">testAndDocument(changes);</p>
 						<p>{'}'}</p>
+						<p class="text-neutral-500">// audiobook fuel: Project Hail Mary + Ready Player One</p>
 						<p class="border-t border-white/10 pt-4 text-accent-300">ready for junior dev, QA automation, and web app roles</p>
 					</div>
 				</div>

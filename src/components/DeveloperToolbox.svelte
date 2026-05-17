@@ -13,7 +13,7 @@
 		{
 			title: 'Databases',
 			icon: 'icons/mongodb.svg',
-			items: ['MongoDB', 'MySQL', 'Data modeling', 'CRUD workflows']
+			items: ['MongoDB', 'MySQL', 'Data modeling', 'CRUD workflows', 'Power BI', 'Report analysis']
 		},
 		{
 			title: 'Testing / Automation',
@@ -23,7 +23,12 @@
 		{
 			title: 'Tools',
 			icon: 'icons/git.svg',
-			items: ['Git', 'GitHub', 'GitHub Pages', 'VS Code', 'Deployment workflows']
+			items: ['Git', 'GitHub', 'GitHub Pages', 'VS Code', 'Deployment workflows', 'OpenClaw']
+		},
+		{
+			title: 'AI / Local Dev',
+			icon: 'icons/typescript.svg',
+			items: ['OpenClaw', 'Local agents', 'Local LLM deployment', 'AI-assisted coding', 'Vibe coding experiments', 'Prompting workflows']
 		}
 	];
 </script>
@@ -42,7 +47,7 @@
 			</p>
 		</div>
 
-		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each groups as group}
 				<article
 					class="card border border-neutral-200/80 p-6 hover:-translate-y-1 hover:border-primary-300 hover:shadow-medium dark:border-neutral-700/80 dark:hover:border-primary-500"
