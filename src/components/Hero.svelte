@@ -1,43 +1,82 @@
 <script lang="ts">
 	export let linkedInUrl: string;
 	export let githubUrl: string;
-	import { Heading, Button } from 'flowbite-svelte';
+
+	const badges = ['Web apps', 'Automation', 'Learning tools', 'Clear docs'];
 </script>
 
-<header class="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-accent-50 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
+<header
+	id="home"
+	class="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_#cffafe,_transparent_34%),linear-gradient(135deg,_#f8fafc,_#ffffff_45%,_#fff7ed)] dark:bg-[radial-gradient(circle_at_top_left,_rgba(8,145,178,0.28),_transparent_34%),linear-gradient(135deg,_#0f172a,_#111827_50%,_#083344)]"
+>
 	<section class="h-full">
-		<div class="flex flex-col justify-center items-center min-h-[calc(100vh-60px)] px-4 py-16">
-			<div class="text-center animate-fade-in">
-				<h1 class="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 text-gradient">
-					Russell Nizamov
+		<div
+			class="mx-auto grid min-h-[calc(100vh-60px)] max-w-7xl items-center gap-10 px-4 py-20 md:grid-cols-[1.05fr_0.95fr] lg:px-8"
+		>
+			<div class="animate-fade-in">
+				<p
+					class="mb-4 inline-flex rounded-full border border-primary-200 bg-white/80 px-4 py-2 text-sm font-semibold text-primary-800 shadow-sm backdrop-blur dark:border-primary-800 dark:bg-neutral-900/70 dark:text-primary-200"
+				>
+					Junior developer portfolio
+				</p>
+				<h1
+					class="mb-6 max-w-4xl text-4xl font-heading font-bold leading-tight text-neutral-950 md:text-6xl lg:text-7xl dark:text-white"
+				>
+					I build practical web apps, automation tools, and learning-focused projects.
 				</h1>
-				<p class="text-xl md:text-2xl lg:text-3xl text-neutral-600 dark:text-neutral-300 mb-8 font-medium animate-slide-up">
-					Web Developer & Designer
+				<p
+					class="mb-6 max-w-2xl text-xl font-medium leading-relaxed text-neutral-700 md:text-2xl dark:text-neutral-200"
+				>
+					Hi, I'm Russell Nizamov, a web developer who likes turning real workflow problems into simple, useful software.
 				</p>
-				<p class="text-lg md:text-xl text-neutral-500 dark:text-neutral-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-					Crafting modern, responsive web experiences with passion and precision.
+				<p class="mb-8 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg dark:text-neutral-300">
+					I focus on practical web apps, automation, and clear documentation so projects are easier to use, test, and improve.
 				</p>
+
+				<div class="mb-10 flex flex-wrap gap-3">
+					{#each badges as badge}
+						<span
+							class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700"
+						>
+							{badge}
+						</span>
+					{/each}
+				</div>
+
+				<div class="flex flex-col gap-4 sm:flex-row">
+					<a href="#projects" class="btn-primary inline-flex items-center justify-center gap-2">
+						View Projects
+					</a>
+					<a href={linkedInUrl} target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2">
+						<img src="icons/linkedin.svg" alt="" class="h-5 w-5" />
+						LinkedIn
+					</a>
+					<a href={githubUrl} target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2">
+						<img src="icons/github.svg" alt="" class="h-5 w-5 dark:invert" />
+						GitHub
+					</a>
+				</div>
 			</div>
-			<div class="flex flex-col sm:flex-row gap-4 animate-slide-up">
-				<a href={linkedInUrl} target="_blank" rel="noopener noreferrer"
-					class="btn-primary inline-flex items-center justify-center gap-2">
-					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-						<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-					</svg>
-					LinkedIn
-				</a>
-				<a href={githubUrl} target="_blank" rel="noopener noreferrer"
-					class="btn-secondary inline-flex items-center justify-center gap-2">
-					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-						<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-					</svg>
-					GitHub
-				</a>
+
+			<div class="animate-slide-up">
+				<div class="overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-950 shadow-large dark:border-primary-900">
+					<div class="flex items-center gap-2 border-b border-white/10 px-4 py-3">
+						<span class="h-3 w-3 rounded-full bg-red-400"></span>
+						<span class="h-3 w-3 rounded-full bg-amber-300"></span>
+						<span class="h-3 w-3 rounded-full bg-primary-400"></span>
+						<span class="ml-3 text-xs font-semibold uppercase tracking-wider text-neutral-400">portfolio.ts</span>
+					</div>
+					<div class="space-y-4 p-5 font-mono text-sm leading-relaxed text-neutral-100 md:p-6">
+						<p><span class="text-primary-300">const</span> focus = ['web apps', 'automation', 'learning'];</p>
+						<p><span class="text-primary-300">function</span> build(project) {'{'}</p>
+						<p class="pl-4 text-neutral-300">understand(problem);</p>
+						<p class="pl-4 text-neutral-300">ship(workingVersion);</p>
+						<p class="pl-4 text-neutral-300">testAndDocument(changes);</p>
+						<p>{'}'}</p>
+						<p class="border-t border-white/10 pt-4 text-accent-300">ready for junior dev, QA automation, and web app roles</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Decorative elements -->
-	<div class="absolute top-20 left-10 w-20 h-20 bg-primary-200 dark:bg-primary-800 rounded-full opacity-20 animate-pulse"></div>
-	<div class="absolute bottom-20 right-10 w-32 h-32 bg-accent-200 dark:bg-accent-800 rounded-full opacity-20 animate-pulse delay-1000"></div>
 </header>
-

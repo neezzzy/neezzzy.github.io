@@ -42,11 +42,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-600 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:bg-primary-700 hover:shadow-medium focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-neutral-900;
+    @apply bg-primary-600 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-700 hover:shadow-medium focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-neutral-900;
   }
 
   .btn-secondary {
-    @apply bg-secondary-100 text-secondary-800 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:bg-secondary-200 hover:shadow-soft focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 dark:bg-secondary-800 dark:text-secondary-100 dark:hover:bg-secondary-700 dark:focus:ring-offset-neutral-900;
+    @apply bg-white text-neutral-800 px-6 py-3 rounded-xl border border-neutral-200 font-medium transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-300 hover:bg-primary-50 hover:shadow-soft focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:border-primary-500 dark:hover:bg-primary-950/40 dark:focus:ring-offset-neutral-900;
   }
 
   .btn-accent {
@@ -54,11 +54,11 @@
   }
 
   .card {
-    @apply bg-white dark:bg-neutral-800 rounded-2xl shadow-soft transition-all duration-300 hover:shadow-medium;
+    @apply rounded-2xl bg-white shadow-soft transition-all duration-300 dark:bg-neutral-800;
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-700 via-primary-500 to-accent-500 bg-clip-text text-transparent dark:from-primary-300 dark:via-primary-400 dark:to-accent-300;
   }
 }
 
@@ -80,7 +80,7 @@
       opacity: 0;
     }
     to {
-      opacity: 0.6;
+      opacity: 1;
     }
   }
 
