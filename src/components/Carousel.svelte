@@ -32,7 +32,7 @@
 
 	let currentIndex = startIndex;
 	let pips: HTMLElement[] = [];
-	let currentPerPage = perPage;
+	let currentPerPage = typeof perPage === 'number' ? perPage : 1;
 
 	onMount(() => {
 		controller = new Siema({
@@ -63,7 +63,7 @@
 		currentIndex = controller.currentSlide;
 		dispatch('change', {
 			currentSlide: controller.currentSlide,
-			slideCount: controller.innerElements.length
+			slideCount: siema.children.length
 		});
 	}
 
