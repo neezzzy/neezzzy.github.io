@@ -10,20 +10,25 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 		
-		<link href="./_app/immutable/assets/0.04dc5297.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.1d4172c8.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.819c919a.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.6bb9bb11.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.ac3e873d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.93a01a7d.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.36e4c50c.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.eb4ae467.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.78ea8cb5.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.7ae4538b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.071282ec.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.24f904ce.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5031f5e2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.5938fcbb.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.33f47a16.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 
 
-<button class="fixed top-4 right-4 z-50 p-3 rounded-full bg-white dark:bg-neutral-800 shadow-soft hover:shadow-medium transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-neutral-900" aria-label="Toggle theme"><svg class="w-5 h-5 text-neutral-700 dark:text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg></button>
+
+
+<div class="fixed right-4 top-4 z-50"><button type="button" class="inline-flex h-12 w-12 items-center justify-center rounded-full border border-neutral-200 bg-white text-neutral-800 shadow-soft transition-all duration-200 hover:shadow-medium focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/70 focus-visible:ring-offset-2 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100 dark:focus-visible:ring-offset-neutral-900 high-contrast:border-2 high-contrast:border-current" aria-label="Display options" aria-haspopup="menu" aria-expanded="false"><svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646z"></path></svg></button>
+
+	
+</div>
 <main class="bg-neutral-50 dark:bg-neutral-900"><nav class="bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-200 border-gray-100 dark:border-gray-700 px-2 sm:px-4 py-2.5 w-full navbar sticky top-0 z-40 border-b border-neutral-200/80 bg-white/85 shadow-sm backdrop-blur dark:border-neutral-800 dark:bg-neutral-950/85"><div class="mx-auto flex flex-wrap justify-between items-center  container"><button type="button" class="focus:outline-none whitespace-normal m-0.5 rounded-lg focus:ring-2 p-1.5 focus:ring-gray-400  hover:bg-gray-100 dark:hover:bg-gray-600 ml-3 md:hidden" aria-label="Open main menu"><span class="sr-only">Open main menu</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="h-6 w-6 shrink-0" aria-label="bars 3" fill="none" viewBox="0 0 24 24" stroke-width="2"><!-- HTML_TAG_START --><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path> <!-- HTML_TAG_END --></svg></button>
 	<div class="w-full md:block md:w-auto" hidden><ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"><li><a href="#home" class="block py-2 pr-4 pl-3 md:p-0 rounded md:border-0 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-sm font-semibold uppercase tracking-wide">Home</a></li>
@@ -32,19 +37,21 @@
 		<li><a href="#toolbox" class="block py-2 pr-4 pl-3 md:p-0 rounded md:border-0 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-sm font-semibold uppercase tracking-wide">Toolbox</a></li>
 		<li><a href="#process" class="block py-2 pr-4 pl-3 md:p-0 rounded md:border-0 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-sm font-semibold uppercase tracking-wide">Process</a></li>
 		<li><a href="#contact" class="block py-2 pr-4 pl-3 md:p-0 rounded md:border-0 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-sm font-semibold uppercase tracking-wide">Contact</a></li></ul></div></div></nav>
-	<header id="home" class="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_#cffafe,_transparent_34%),linear-gradient(135deg,_#f8fafc,_#ffffff_45%,_#fff7ed)] dark:bg-[radial-gradient(circle_at_top_left,_rgba(8,145,178,0.28),_transparent_34%),linear-gradient(135deg,_#0f172a,_#111827_50%,_#083344)]"><section class="h-full"><div class="mx-auto grid min-h-[calc(100vh-60px)] max-w-7xl items-center gap-10 px-4 py-20 md:grid-cols-[1.05fr_0.95fr] lg:px-8"><div class="animate-fade-in"><p class="mb-4 inline-flex rounded-full border border-primary-200 bg-white/80 px-4 py-2 text-sm font-semibold text-primary-800 shadow-sm backdrop-blur dark:border-primary-800 dark:bg-neutral-900/70 dark:text-primary-200">Junior developer portfolio
+	<header id="home" class="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_#cffafe,_transparent_34%),linear-gradient(135deg,_#f8fafc,_#ffffff_45%,_#fff7ed)] dark:bg-[radial-gradient(circle_at_top_left,_rgba(8,145,178,0.28),_transparent_34%),linear-gradient(135deg,_#0f172a,_#111827_50%,_#083344)]"><section class="h-full"><div class="mx-auto grid min-h-[calc(100vh-60px)] max-w-7xl items-center gap-10 px-4 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8"><div class="animate-fade-in"><p class="mb-4 inline-flex rounded-full border border-primary-200 bg-white/80 px-4 py-2 text-sm font-semibold text-primary-800 shadow-sm backdrop-blur dark:border-primary-800 dark:bg-neutral-900/70 dark:text-primary-200">Business Systems, Automation, and AI Workflow Developer
 				</p>
-				<h1 class="mb-6 max-w-4xl text-4xl font-heading font-bold leading-tight text-neutral-950 md:text-6xl lg:text-7xl dark:text-white">I build practical web tools.
+				<h1 class="mb-6 max-w-4xl text-4xl font-heading font-bold leading-tight text-neutral-950 md:text-6xl lg:text-7xl dark:text-white">I build practical workflow tools.
 				</h1>
-				<p class="mb-6 max-w-2xl text-xl font-medium leading-relaxed text-neutral-700 md:text-2xl dark:text-neutral-200">Hi, I&#39;m Russell Nizamov, a web developer who likes turning real workflow problems into simple, useful software.
+				<p class="mb-6 max-w-2xl text-xl font-medium leading-relaxed text-neutral-700 md:text-2xl dark:text-neutral-200">Hi, I&#39;m Russell Nizamov, a developer who likes turning real workflow problems into simple,
+					useful software.
 				</p>
-				<p class="mb-8 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg dark:text-neutral-300">I focus on practical web apps, automation, reporting, and clear documentation so projects are easier to use, test, and improve.
+				<p class="mb-8 max-w-2xl text-base leading-relaxed text-neutral-600 md:text-lg dark:text-neutral-300">I focus on business systems, automation, dashboards, education tools, and local-first apps
+					that are easy to use, test, and improve.
 				</p>
 
-				<div class="mb-10 flex flex-wrap gap-3"><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Web apps
+				<div class="mb-10 flex flex-wrap gap-3"><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Business systems
 						</span><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Automation
-						</span><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Power BI
-						</span><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Local agents
+						</span><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">AI workflows
+						</span><span class="rounded-full bg-white/85 px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm ring-1 ring-neutral-200 backdrop-blur dark:bg-neutral-900/70 dark:text-neutral-200 dark:ring-neutral-700">Dashboards
 						</span></div>
 
 				<div class="flex flex-col gap-4 sm:flex-row"><a href="#projects" class="btn-primary inline-flex items-center justify-center gap-2">View Projects
@@ -60,15 +67,20 @@
 						<span class="h-3 w-3 rounded-full bg-amber-300"></span>
 						<span class="h-3 w-3 rounded-full bg-primary-400"></span>
 						<span class="ml-3 text-xs font-semibold uppercase tracking-wider text-neutral-400">portfolio.ts</span></div>
-					<div class="space-y-4 p-5 font-mono text-sm leading-relaxed text-neutral-100 md:p-6"><p><span class="text-primary-300">const</span> focus = [&#39;web apps&#39;, &#39;automation&#39;, &#39;Power BI&#39;];</p>
-						<p><span class="text-primary-300">const</span> localLab = [&#39;OpenClaw&#39;, &#39;local LLMs&#39;, &#39;agents&#39;];</p>
+					<div class="space-y-4 p-5 font-mono text-sm leading-relaxed text-neutral-100 md:p-6"><p><span class="text-primary-300">const</span> focus = [&#39;business systems&#39;, &#39;automation&#39;,
+							&#39;dashboards&#39;];
+						</p>
+						<p><span class="text-primary-300">const</span> workflowLab = [&#39;local-first apps&#39;, &#39;AI workflow
+							MVPs&#39;, &#39;learning tools&#39;];
+						</p>
 						<p><span class="text-primary-300">function</span> build(project) {</p>
 						<p class="pl-4 text-neutral-300">understand(problem);</p>
 						<p class="pl-4 text-neutral-300">ship(workingVersion);</p>
 						<p class="pl-4 text-neutral-300">testAndDocument(changes);</p>
 						<p>}</p>
 						<p class="text-neutral-500">// audiobook fuel: Project Hail Mary + Ready Player One</p>
-						<p class="border-t border-white/10 pt-4 text-accent-300">ready for junior dev, QA automation, and web app roles</p></div></div></div></div></section></header>
+						<p class="border-t border-white/10 pt-4 text-accent-300">ready for junior dev, QA automation, and web app roles
+						</p></div></div></div></div></section></header>
 	<section id="about" class="bg-neutral-50 px-4 py-20 dark:bg-neutral-900"><div class="max-w-4xl mx-auto"><div class="card mb-12 border border-neutral-200/80 p-8 md:p-12 dark:border-neutral-700/80"><div class="text-center mb-8"><h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-gradient">About Me</h2>
 				<p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 leading-relaxed">I like building tools that make tasks easier to understand, use, and improve.
 				</p></div>
@@ -108,164 +120,234 @@
 			</div><div class="stack-icon svelte-fqqnk2"><img src="icons/react-native.svg" alt="Icon 11" class="svelte-fqqnk2">
 			</div></div>
 </div></div></div></section>
-	<section id="projects" class="bg-white px-4 py-20 dark:bg-neutral-800"><div class="max-w-7xl mx-auto"><div class="text-center mb-16"><h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-gradient">Featured Projects</h2>
-			<p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed">My projects usually start with a real workflow problem: studying faster, seeing data more clearly,
-				publishing learning content, or making a small web experience easier to use.
+	<section id="projects" class="bg-white px-4 py-20 dark:bg-neutral-800"><div class="max-w-7xl mx-auto"><div class="text-center mb-16"><h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-gradient">Featured Projects
+			</h2>
+			<p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed">Selected projects focused on practical workflow tools, dashboards, education, automation,
+				and local-first apps.
 			</p></div>
 
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/definitive-bjj.webp" alt="Definitive BJJ" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A live client website for a local martial arts academy.</div></div>
+		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/jobops-dashboard.svg" alt="JobOps" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A local-first operations tracker for job search workflows.</div></div>
 
-	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Definitive BJJ</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A live client website for a local martial arts academy.</p>
+	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">JobOps</h3>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A local-first operations tracker for job search workflows.</p>
 
 		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Gives prospective students a clear place to learn about classes, schedule, contact details, and the academy brand.</p></div>
+			<p>Keeps applications, resume versions, follow-ups, and saved job details in one structured workspace.</p></div>
 
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">WordPress
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Elementor
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Astra
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Responsive Design
-				</span></div>
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Expo
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">React Native
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">TypeScript
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">SQLite
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Jest
+					</span></div></div>
 
 		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Built and published a client-facing website for Definitive BJJ with structured sections for discovery and contact.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Focused on a polished first impression, mobile-friendly navigation, and clear calls to action for new students.</p></div>
+				Built a mobile workflow app with application status tracking, resume version management, follow-up reminders, local notes, and backup import/export.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Shows practical business-systems thinking: structured data, repeatable workflows, local ownership, and useful dashboard summaries without requiring a backend.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Workflow Systems
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Local-First
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Automation
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Dashboard
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Mobile App
+					</span></div></div>
+
+		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/JobOps" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
+					GitHub
+				</a>
+			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/ai-meeting-intelligence-tool.png" alt="AI Meeting Intelligence Tool" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A transcript-to-actions tool for meeting follow-through.</div></div>
+
+	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">AI Meeting Intelligence Tool</h3>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A transcript-to-actions tool for meeting follow-through.</p>
+
+		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
+			<p>Turns raw meeting notes into a clearer set of summaries, action items, decisions, risks, and follow-up questions.</p></div>
+
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">React
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">TypeScript
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Vite
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Tailwind CSS
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Rule-Based Parsing
+					</span></div></div>
+
+		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
+				Built a browser-only meeting analysis interface with sample transcript loading, deterministic text extraction, structured result sections, and markdown export.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Demonstrates an AI-workflow product shape while keeping the MVP transparent, fast to run, and free of API keys or cloud dependencies.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">AI Workflow
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Rule-Based MVP
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Productivity
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Markdown Export
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Frontend Tool
+					</span></div></div>
+
+		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/ai-meeting-tool" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
+					GitHub
+				</a>
+			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/parkwise-bc-results.png" alt="ParkWise BC" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A civic-tech helper for reading parking sign wording.</div></div>
+
+	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">ParkWise BC</h3>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A civic-tech helper for reading parking sign wording.</p>
+
+		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
+			<p>Helps drivers interpret common parking sign text without guessing at compact or confusing rule wording.</p></div>
+
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">React
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">TypeScript
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Vite
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Tailwind CSS
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Rule Engine
+					</span></div></div>
+
+		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
+				Built a frontend tool that accepts parking sign text, applies deterministic parsing rules, and returns plain-English guidance, restrictions, warnings, and uncertainty notes.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Turns a small local pain point into a practical dashboard-style interface while clearly avoiding legal advice or unsupported automation claims.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Civic Tech
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Rule-Based Tool
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Local Utility
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Plain-English UI
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Frontend App
+					</span></div></div>
+
+		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/ParkRight-BC" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
+					GitHub
+				</a>
+			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/definitive-bjj.webp" alt="Definitive Jiu Jitsu" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A live WordPress site for a local martial arts business.</div></div>
+
+	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Definitive Jiu Jitsu</h3>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A live WordPress site for a local martial arts business.</p>
+
+		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
+			<p>Helped create a clear web presence where visitors can learn about the academy and find key information quickly.</p></div>
+
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">WordPress
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">CMS Setup
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Responsive Site
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Content Organization
+					</span></div></div>
+
+		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
+				Set up and launched the WordPress site structure, pages, content flow, and public-facing presentation for real users.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Shows practical real-world delivery: working with an existing CMS, organizing business content, and launching a site outside a purely portfolio/demo context.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Real-World Project
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">WordPress
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">CMS
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Business Website
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Client Experience
+					</span></div></div>
 
 		<div class="mt-auto flex flex-wrap gap-3 pt-6">
 			<a href="https://definitivebjj.ca/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm">Live Demo
 					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8"></path></svg></a></div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/brainyCanuck.webp" alt="BrainyCanuck" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A study companion for Canadian citizenship prep.</div></div>
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A focused study companion for Canadian citizenship prep.</div></div>
 
 	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">BrainyCanuck</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A study companion for Canadian citizenship prep.</p>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A focused study companion for Canadian citizenship prep.</p>
 
 		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Turns a large exam topic into quick review sessions that are easier to repeat.</p></div>
+			<p>Breaks citizenship test preparation into shorter review sessions that are easier to repeat.</p></div>
 
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">React Native
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Mobile UI
-				</span></div>
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">React Native
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Mobile UI
+					</span></div></div>
 
 		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Designed a flashcard-based learning flow with simple navigation and review-friendly content.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Structured the app around focused study cards instead of long static reading screens.</p></div>
+				Built a flashcard-based mobile study app with organized review content and simple navigation for quick practice.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Applies practical education design to a real learner need, with a lightweight format that is useful without being overcomplicated.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Education
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Mobile App
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Flashcards
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Study Tool
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Learning Design
+					</span></div></div>
 
 		<div class="mt-auto flex flex-wrap gap-3 pt-6">
 			<a href="https://play.google.com/store/apps/details?id=com.neezzyy.flashcards" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm">Live Demo
-					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8"></path></svg></a></div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/windows-server-fundamentals.webp" alt="Microlearning: Windows Server Fundamentals" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A short, interactive learning module for technical fundamentals.</div></div>
-
-	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Microlearning: Windows Server Fundamentals</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A short, interactive learning module for technical fundamentals.</p>
-
-		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Helps learners move through Windows Server concepts in a guided, bite-sized format.</p></div>
-
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Articulate 360
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">GitHub Pages
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Instructional Design
-				</span></div>
-
-		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Created and published a microlearning experience with interactive screens and static hosting.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Combined education background with GitHub Pages deployment for easy access.</p></div>
-
-		<div class="mt-auto flex flex-wrap gap-3 pt-6">
-			<a href="https://neezzzy.github.io/micro-learning-windows-server-fundamentals/#/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm">Live Demo
-					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8"></path></svg></a></div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/midnight-chatter.webp" alt="Chatter App" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A real-time chat project focused on live interaction.</div></div>
-
-	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Chatter App</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A real-time chat project focused on live interaction.</p>
-
-		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Explores how users can send and receive messages without refreshing the page.</p></div>
-
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Realtime UI
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Web App
-				</span></div>
-
-		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Built a chat interface for composing, sending, and viewing conversation updates.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Focused on responsive message flow and clear interaction states.</p></div>
-
-		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/chatter" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
-					GitHub
-				</a>
-			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/my-foodie.webp" alt="My Foodie Restaurant" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A restaurant website template with a polished customer-facing layout.</div></div>
-
-	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">My Foodie Restaurant</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A restaurant website template with a polished customer-facing layout.</p>
-
-		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Gives a small food business a clear way to present menu, brand, and contact details.</p></div>
-
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">HTML
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">CSS
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
-				</span></div>
-
-		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Created a responsive restaurant template with visual sections for browsing and discovery.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Practiced layout, spacing, and visual hierarchy for a real business-style page.</p></div>
-
-		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/MyFoodie-Restaurant" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
-					GitHub
-				</a>
-			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/crypto-dashboard.webp" alt="Crypto Dashboard" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A dashboard concept for scanning crypto market information.</div></div>
+					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8"></path></svg></a></div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/crypto-dashboard.webp" alt="Crypto Dashboard" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A chart-focused dashboard for market scanning.</div></div>
 
 	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Crypto Dashboard</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A dashboard concept for scanning crypto market information.</p>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A chart-focused dashboard for market scanning.</p>
 
 		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Organizes changing data into a more readable chart-first interface.</p></div>
+			<p>Organizes changing crypto data into a more readable interface for quick visual review.</p></div>
 
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Charts
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Dashboard UI
-				</span></div>
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">JavaScript
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Charts
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Dashboard UI
+					</span></div></div>
 
 		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Built a dashboard layout with chart-focused components and quick visual summaries.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Worked on presenting dynamic information without making the interface feel crowded.</p></div>
+				Built a dashboard layout with chart-focused components, visual summaries, and a cleaner structure for browsing market information.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Shows early dashboard and data-presentation practice in a practical format, without overstating the project as a trading or analytics platform.</p></div>
+
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Dashboard
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Charts
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Data UI
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Market Data
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Frontend Practice
+					</span></div></div>
 
 		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/crypto-board" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
 					GitHub
 				</a>
-			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/campus-connect.webp" alt="Campus Connect" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
-		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A project marketplace idea connecting students with companies.</div></div>
+			</div></div></article><article class="group card flex h-full w-full max-w-md flex-col overflow-hidden border border-neutral-200/80 transition-all duration-300 hover:-translate-y-1 hover:border-primary-300 hover:shadow-large dark:border-neutral-700/80 dark:hover:border-primary-500"><div class="relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"><img src="images/windows-server-fundamentals.webp" alt="Microlearning: Windows Server Fundamentals" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+		<div class="absolute inset-x-4 bottom-4 rounded-xl border border-white/20 bg-neutral-950/75 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-soft backdrop-blur transition-opacity duration-300 group-hover:opacity-100">A short technical learning module for Windows Server basics.</div></div>
 
-	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Campus Connect</h3>
-		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A project marketplace idea connecting students with companies.</p>
+	<div class="flex flex-1 flex-col p-6"><h3 class="mb-2 text-xl font-heading font-semibold text-neutral-900 transition-colors group-hover:text-primary-700 dark:text-neutral-100 dark:group-hover:text-primary-300">Microlearning: Windows Server Fundamentals</h3>
+		<p class="mb-4 text-sm font-medium text-primary-700 dark:text-primary-300">A short technical learning module for Windows Server basics.</p>
 
 		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"><p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
-			<p>Helps organize project opportunities so students and organizations can find each other.</p></div>
+			<p>Guides learners through Windows Server concepts in a structured, bite-sized format.</p></div>
 
-		<div class="mb-5 flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Web App
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Team Project
-				</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Database Design
-				</span></div>
+		<div class="mb-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Articulate 360
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">GitHub Pages
+					</span><span class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200">Instructional Design
+					</span></div></div>
 
 		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300"><p><span class="font-semibold text-neutral-900 dark:text-neutral-100">What I built:</span>
-				Contributed to a marketplace-style application with project listings and user workflows.</p>
-			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				Practiced working across product requirements, interface design, and app structure.</p></div>
+				Created and published an interactive microlearning experience with guided screens, learner-friendly pacing, and static web hosting.</p>
+			<p><span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				Connects technical education with web delivery, making an older learning project clear, accessible, and still useful as a portfolio example.</p></div>
 
-		<div class="mt-auto flex flex-wrap gap-3 pt-6"><a href="https://github.com/neezzzy/Final-Project-P100" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"><img src="icons/github.svg" alt="" class="h-4 w-4 dark:invert">
-					GitHub
-				</a>
-			</div></div></article></div>
+		<div class="mt-5"><p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2"><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Education
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Microlearning
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Technical Training
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">GitHub Pages
+					</span><span class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300">Instructional Design
+					</span></div></div>
+
+		<div class="mt-auto flex flex-wrap gap-3 pt-6">
+			<a href="https://neezzzy.github.io/micro-learning-windows-server-fundamentals/#/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm">Live Demo
+					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8"></path></svg></a></div></div></article></div>
 
 		<div class="text-center mt-12"><p class="text-neutral-500 dark:text-neutral-400">More code and experiments live on <a href="https://github.com/neezzzy" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium transition-colors">GitHub
 				</a></p></div></div>
@@ -353,28 +435,53 @@
 					<h3 class="mb-3 text-lg font-heading font-semibold text-neutral-900 dark:text-neutral-100">Document what changed</h3>
 					<p class="text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">Leave notes, setup steps, and decisions clear enough for the next pass.</p>
 				</article></div></div></section>
-	<section class="bg-neutral-50 px-4 py-20 dark:bg-neutral-900"><div class="mx-auto grid max-w-6xl gap-8 rounded-2xl border border-primary-100 bg-white p-8 shadow-soft md:grid-cols-[0.9fr_1.1fr] md:p-10 dark:border-primary-900 dark:bg-neutral-800"><div><p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300">Currently Improving
-			</p>
-			<h2 class="mb-5 text-3xl font-heading font-bold text-neutral-950 md:text-4xl dark:text-white">Keeping the portfolio honest and active.
-			</h2>
-			<p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300">I am looking for junior roles where I can keep improving through real code reviews, practical tasks, and thoughtful debugging.
-			</p></div>
+	<section class="bg-neutral-50 px-4 py-20 dark:bg-neutral-900"><div class="mx-auto grid max-w-6xl gap-8 rounded-2xl border border-primary-100 bg-white p-8 shadow-soft lg:grid-cols-[0.9fr_1.1fr] md:p-10 dark:border-primary-900 dark:bg-neutral-800"><div class="flex flex-col justify-between gap-8"><div><p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300">Recruiter Snapshot
+				</p>
+				<h2 class="mb-5 text-3xl font-heading font-bold text-neutral-950 md:text-4xl dark:text-white">Useful for business systems, workflow tools, and junior web app roles.
+				</h2>
+				<p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300">I am based near Vancouver and open to remote or Vancouver-area opportunities where practical implementation, clear workflows, and real delivery matter.
+				</p></div>
 
-		<div class="grid gap-4 sm:grid-cols-2"><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Testing and automation
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Svelte and React projects
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Backend and database design
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Deployment and GitHub workflows
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Power BI reports and analysis
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					Local LLM deployment on my computer
-				</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-semibold text-neutral-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
-					OpenClaw and local agent workflows
-				</div></div></div></section>
+			<div class="flex flex-wrap gap-3"><a href="#projects" class="btn-primary inline-flex items-center justify-center">Featured Projects</a>
+				<a href="https://www.linkedin.com/in/nizamovruslan/" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center">LinkedIn
+				</a>
+				<a href="https://github.com/neezzzy" target="_blank" rel="noopener noreferrer" class="btn-secondary inline-flex items-center justify-center">GitHub
+				</a></div></div>
+
+		<div class="grid gap-5"><div class="grid gap-4 sm:grid-cols-2"><article class="rounded-xl border border-neutral-200 bg-neutral-50 p-5 dark:border-neutral-700 dark:bg-neutral-900"><h3 class="mb-4 text-lg font-heading font-semibold text-neutral-900 dark:text-neutral-100">Role Fit
+					</h3>
+					<div class="flex flex-wrap gap-2"><span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-700 ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:ring-neutral-700">Business systems
+							</span><span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-700 ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:ring-neutral-700">Internal tools
+							</span><span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-700 ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:ring-neutral-700">Workflow automation
+							</span><span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-700 ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:ring-neutral-700">Dashboards
+							</span><span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-700 ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:ring-neutral-700">Junior web development
+							</span></div></article>
+
+				<article class="rounded-xl border border-neutral-200 bg-neutral-50 p-5 dark:border-neutral-700 dark:bg-neutral-900"><h3 class="mb-4 text-lg font-heading font-semibold text-neutral-900 dark:text-neutral-100">What I Bring
+					</h3>
+					<ul class="space-y-2 text-sm font-medium text-neutral-700 dark:text-neutral-300"><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-500"></span>
+								<span>Practical implementation</span>
+							</li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-500"></span>
+								<span>Structured workflow thinking</span>
+							</li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-500"></span>
+								<span>Debugging and testing habits</span>
+							</li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-500"></span>
+								<span>CMS setup and launch work</span>
+							</li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-500"></span>
+								<span>Clear documentation</span>
+							</li></ul></article></div>
+
+			<p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300">Proof Points
+			</p>
+			<div class="grid gap-3"><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-medium leading-relaxed text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
+						JobOps: local-first workflow tracker with structured data and dashboard summaries.
+					</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-medium leading-relaxed text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
+						AI Meeting Intelligence Tool: transcript-to-actions interface with exportable results.
+					</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-medium leading-relaxed text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
+						ParkWise BC: rule-based plain-English interface for local parking sign wording.
+					</div><div class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm font-medium leading-relaxed text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"><span class="mb-3 block h-1.5 w-10 rounded-full bg-primary-500"></span>
+						Definitive Jiu Jitsu: real-world WordPress setup and launch for a local business.
+					</div></div></div></div></section>
 	<footer class="bg-neutral-950 py-16 text-neutral-300" id="contact"><div class="mx-auto max-w-4xl px-4"><div class="text-center"><p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-300">Contact</p>
 			<h3 class="mb-5 text-3xl font-heading font-semibold text-white md:text-4xl">Let&#39;s build something useful.
 			</h3>
@@ -401,7 +508,7 @@
 			
 			<script>
 				{
-					__sveltekit_1l0yvav = {
+					__sveltekit_114f527 = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -411,8 +518,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.6bb9bb11.js"),
-						import("./_app/immutable/entry/app.36e4c50c.js")
+						import("./_app/immutable/entry/start.7ae4538b.js"),
+						import("./_app/immutable/entry/app.5031f5e2.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

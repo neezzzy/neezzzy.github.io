@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">JobOps dashboard preview placeholder</title>
+  <desc id="desc">A placeholder preview showing the JobOps dashboard concept with application totals, status counts, follow-ups, recent jobs, and recommendations.</desc>
+  <rect width="1280" height="800" fill="#f6f7f9"/>
+  <rect x="72" y="56" width="1136" height="688" rx="28" fill="#ffffff" stroke="#d9dee7"/>
+  <rect x="104" y="92" width="1072" height="72" rx="16" fill="#1f2937"/>
+  <text x="136" y="138" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">JobOps</text>
+  <text x="260" y="138" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="20">Dashboard preview placeholder</text>
+  <rect x="136" y="204" width="216" height="132" rx="14" fill="#eef6ff" stroke="#c7dff8"/>
+  <rect x="384" y="204" width="216" height="132" rx="14" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <rect x="632" y="204" width="216" height="132" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+  <rect x="880" y="204" width="216" height="132" rx="14" fill="#f8fafc" stroke="#d9dee7"/>
+  <text x="160" y="248" fill="#334155" font-family="Arial, sans-serif" font-size="18">Applications</text>
+  <text x="160" y="296" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="700">24</text>
+  <text x="408" y="248" fill="#334155" font-family="Arial, sans-serif" font-size="18">Interviews</text>
+  <text x="408" y="296" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="700">5</text>
+  <text x="656" y="248" fill="#334155" font-family="Arial, sans-serif" font-size="18">Follow-ups</text>
+  <text x="656" y="296" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="700">7</text>
+  <text x="904" y="248" fill="#334155" font-family="Arial, sans-serif" font-size="18">Resume versions</text>
+  <text x="904" y="296" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="700">4</text>
+  <rect x="136" y="376" width="464" height="272" rx="18" fill="#ffffff" stroke="#d9dee7"/>
+  <text x="164" y="420" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="700">Status pipeline</text>
+  <rect x="164" y="452" width="368" height="18" rx="9" fill="#e5e7eb"/>
+  <rect x="164" y="452" width="220" height="18" rx="9" fill="#2563eb"/>
+  <text x="164" y="506" fill="#475569" font-family="Arial, sans-serif" font-size="18">Saved</text>
+  <text x="492" y="506" fill="#111827" font-family="Arial, sans-serif" font-size="18" text-anchor="end">8</text>
+  <text x="164" y="552" fill="#475569" font-family="Arial, sans-serif" font-size="18">Applied</text>
+  <text x="492" y="552" fill="#111827" font-family="Arial, sans-serif" font-size="18" text-anchor="end">11</text>
+  <text x="164" y="598" fill="#475569" font-family="Arial, sans-serif" font-size="18">Interviewing</text>
+  <text x="492" y="598" fill="#111827" font-family="Arial, sans-serif" font-size="18" text-anchor="end">5</text>
+  <rect x="640" y="376" width="456" height="272" rx="18" fill="#ffffff" stroke="#d9dee7"/>
+  <text x="668" y="420" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="700">Recommendations</text>
+  <circle cx="680" cy="466" r="6" fill="#2563eb"/>
+  <text x="704" y="472" fill="#334155" font-family="Arial, sans-serif" font-size="18">Review applications waiting on follow-up.</text>
+  <circle cx="680" cy="516" r="6" fill="#16a34a"/>
+  <text x="704" y="522" fill="#334155" font-family="Arial, sans-serif" font-size="18">Check recent roles before interviews.</text>
+  <circle cx="680" cy="566" r="6" fill="#ea580c"/>
+  <text x="704" y="572" fill="#334155" font-family="Arial, sans-serif" font-size="18">Keep resume versions tied to roles.</text>
+  <text x="640" y="708" fill="#64748b" font-family="Arial, sans-serif" font-size="18">Replace with a captured dashboard screenshot after final UI review.</text>
+</svg>
