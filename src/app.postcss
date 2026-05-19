@@ -22,6 +22,12 @@
     @apply text-primary-600 dark:text-primary-400 transition-colors duration-200 hover:text-primary-700 dark:hover:text-primary-300;
   }
 
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px solid #0891b2;
+    outline-offset: 3px;
+  }
+
   /* Custom scrollbar */
   ::-webkit-scrollbar {
     width: 8px;
@@ -37,6 +43,184 @@
 
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-neutral-400 dark:bg-neutral-500;
+  }
+}
+
+html.large-text {
+  font-size: 18px;
+}
+
+html.large-text body {
+  line-height: 1.65;
+}
+
+html.large-text p,
+html.large-text li,
+html.large-text a,
+html.large-text button,
+html.large-text span {
+  line-height: 1.55;
+}
+
+html.large-text h1,
+html.large-text h2,
+html.large-text h3 {
+  line-height: 1.12;
+}
+
+html.high-contrast {
+  color-scheme: light;
+}
+
+html.high-contrast body,
+html.high-contrast main,
+html.high-contrast section,
+html.high-contrast header,
+html.high-contrast nav,
+html.high-contrast footer {
+  background: #ffffff !important;
+  color: #000000 !important;
+  background-image: none !important;
+}
+
+html.high-contrast .card,
+html.high-contrast article,
+html.high-contrast [class*="rounded"],
+html.high-contrast [class*="bg-"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+html.high-contrast h1,
+html.high-contrast h2,
+html.high-contrast h3,
+html.high-contrast h4,
+html.high-contrast h5,
+html.high-contrast h6,
+html.high-contrast p,
+html.high-contrast li,
+html.high-contrast span {
+  color: #000000 !important;
+}
+
+html.high-contrast a {
+  color: #0000ee !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+html.high-contrast button,
+html.high-contrast .btn-primary,
+html.high-contrast .btn-secondary,
+html.high-contrast .btn-accent {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #000000 !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+
+html.high-contrast .btn-primary:hover,
+html.high-contrast .btn-secondary:hover,
+html.high-contrast .btn-accent:hover,
+html.high-contrast button:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+html.high-contrast button span,
+html.high-contrast .btn-primary span,
+html.high-contrast .btn-secondary span,
+html.high-contrast .btn-accent span {
+  color: inherit !important;
+}
+
+html.high-contrast button img,
+html.high-contrast .btn-primary img,
+html.high-contrast .btn-secondary img,
+html.high-contrast .btn-accent img {
+  filter: invert(1);
+}
+
+html.high-contrast a:focus-visible,
+html.high-contrast button:focus-visible,
+html.high-contrast [tabindex]:focus-visible {
+  outline: 4px solid #ffbf00 !important;
+  outline-offset: 4px;
+}
+
+html.high-contrast .text-gradient {
+  background: none !important;
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000;
+}
+
+html.high-contrast img {
+  forced-color-adjust: auto;
+}
+
+@media (prefers-contrast: more) {
+  html:not(.contrast-standard) .card,
+  html:not(.contrast-standard) article,
+  html:not(.contrast-standard) button,
+  html:not(.contrast-standard) .btn-primary,
+  html:not(.contrast-standard) .btn-secondary,
+  html:not(.contrast-standard) .btn-accent {
+    border-width: 2px;
+  }
+
+  html:not(.contrast-standard) a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.18em;
+  }
+}
+
+@media (forced-colors: active) {
+  html,
+  body,
+  main,
+  section,
+  header,
+  nav,
+  footer,
+  article,
+  .card {
+    background: Canvas !important;
+    color: CanvasText !important;
+    border-color: CanvasText !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+
+  a {
+    color: LinkText !important;
+    text-decoration: underline;
+  }
+
+  button,
+  .btn-primary,
+  .btn-secondary,
+  .btn-accent {
+    background: ButtonFace !important;
+    color: ButtonText !important;
+    border: 2px solid ButtonText !important;
+    box-shadow: none !important;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 3px solid Highlight !important;
+    outline-offset: 3px;
+  }
+
+  .text-gradient {
+    background: none !important;
+    color: CanvasText !important;
+    -webkit-text-fill-color: CanvasText;
   }
 }
 

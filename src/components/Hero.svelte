@@ -11,7 +11,7 @@
 >
 	<section class="h-full">
 		<div
-			class="mx-auto grid min-h-[calc(100vh-60px)] max-w-7xl items-center gap-10 px-4 py-20 md:grid-cols-[1.05fr_0.95fr] lg:px-8"
+			class="mx-auto grid min-h-[calc(100vh-60px)] max-w-7xl items-center gap-10 px-4 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8"
 		>
 			<div class="animate-fade-in">
 				<p
