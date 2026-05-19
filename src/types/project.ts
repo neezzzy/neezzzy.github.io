@@ -5,7 +5,8 @@ export interface Project {
 	problem: string;
 	techStack: string[];
 	built: string;
-	highlight: string;
+	value: string;
+	tags: string[];
 	image: string;
 	githubUrl?: string;
 	demoUrl?: string;

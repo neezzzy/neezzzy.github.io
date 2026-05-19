@@ -29,19 +29,24 @@
 			{project.hook}
 		</p>
 
-		<div class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300">
+		<div
+			class="mb-4 rounded-xl bg-primary-50 p-4 text-sm text-neutral-700 dark:bg-primary-950/40 dark:text-neutral-300"
+		>
 			<p class="mb-2 font-semibold text-neutral-900 dark:text-neutral-100">Problem solved</p>
 			<p>{project.problem}</p>
 		</div>
 
-		<div class="mb-5 flex flex-wrap gap-2">
-			{#each project.techStack as tech}
-				<span
-					class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200"
-				>
-					{tech}
-				</span>
-			{/each}
+		<div class="mb-5">
+			<p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tech stack</p>
+			<div class="flex flex-wrap gap-2">
+				{#each project.techStack as tech}
+					<span
+						class="rounded-full border border-primary-200 bg-white px-3 py-1 text-xs font-semibold text-primary-800 shadow-sm dark:border-primary-800 dark:bg-neutral-900 dark:text-primary-200"
+					>
+						{tech}
+					</span>
+				{/each}
+			</div>
 		</div>
 
 		<div class="space-y-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
@@ -50,9 +55,22 @@
 				{project.built}
 			</p>
 			<p>
-				<span class="font-semibold text-neutral-900 dark:text-neutral-100">Technical highlight:</span>
-				{project.highlight}
+				<span class="font-semibold text-neutral-900 dark:text-neutral-100">Value / outcome:</span>
+				{project.value}
 			</p>
+		</div>
+
+		<div class="mt-5">
+			<p class="mb-2 text-sm font-semibold text-neutral-900 dark:text-neutral-100">Tags</p>
+			<div class="flex flex-wrap gap-2">
+				{#each project.tags as tag}
+					<span
+						class="rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"
+					>
+						{tag}
+					</span>
+				{/each}
+			</div>
 		</div>
 
 		<div class="mt-auto flex flex-wrap gap-3 pt-6">
@@ -75,8 +93,19 @@
 					class="btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 text-sm"
 				>
 					Live Demo
-					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H9M17 7v8" />
+					<svg
+						class="h-4 w-4"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+						aria-hidden="true"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M7 17L17 7M17 7H9M17 7v8"
+						/>
 					</svg>
 				</a>
 			{/if}
